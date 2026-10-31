@@ -9,6 +9,17 @@ const nextConfig = {
       },
     },
   },
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'res.cloudinary.com',
+        port: '',
+        pathname: '/djfop5zyp/image/**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
