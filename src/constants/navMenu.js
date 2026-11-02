@@ -1,4 +1,4 @@
-import { CONTACT_ROUTE, HOME_ROUTE, LOGIN_ROUTE, PRODUCTS_ROUTE, REGISTER_ROUTE, SERVICES_ROUTE } from "./routes";
+import { ABOUT_ROUTE, CONTACT_ROUTE, HOME_ROUTE, LOGIN_ROUTE, PRODUCTS_ROUTE, REGISTER_ROUTE, SERVICES_ROUTE } from "./routes";
 
 const navMenu = [
     {
@@ -8,6 +8,10 @@ const navMenu = [
     {
         label: "Products",
         route: PRODUCTS_ROUTE
+    },
+    {
+        label: "About",
+        route: ABOUT_ROUTE
     },
     {
         label: "Services",

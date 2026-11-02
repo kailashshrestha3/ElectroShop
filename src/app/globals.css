@@ -29,3 +29,7 @@ body {
 
 /* Class based Theme */
 @custom-variant dark (&:where(.dark, .dark *));
+
+.card-body {
+  @apply bg-primary/5 p-4 rounded-2xl;
+}

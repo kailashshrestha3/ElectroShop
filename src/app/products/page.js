@@ -1,6 +1,6 @@
-import ProductCard from '@/components/ProductCard'
 import Link from 'next/link'
 import React from 'react'
+import ProductCard from './_components/ProductCard'
 
 const ProductPage = async () => {
     const products = await fetch("https://mern-20251103-api.vercel.app/api/products")
